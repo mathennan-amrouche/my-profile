@@ -1,0 +1,102 @@
+/* colors and font */
+body {
+
+  background: #4d5367;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  color: #ffffff;
+}
+ h1, h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+
+ }
+h2 {
+  color: #00d646;
+}
+p {
+  color: white;
+  font-weight: 900;
+}
+h1 {
+  color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+/* custome design with class */
+
+.body {
+  width: 700px;
+  margin: 40px auto;
+}
+.box-color {
+  background-color: #545a6e;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.image-circle {
+  border-radius: 50%;
+  width: 350px;
+  height: 400px;
+}
+.btn-color {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.btn-color:hover {
+  background-color: black;
+  color: red;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 40px;
+}
+/* custom design with id */
+
+#emlv-blue {
+  color: blue;
+}
+#emlv-blue:hover {
+  color: #48cae4;
+}
+#snap-color:hover {
+  color:yellow;
+}
+#insta-color:hover {
+  color: black;
+}
+#intro p {
+  margin-bottom: 40px;
+}
+/* custom design with media queries*/
+@media (max-width: 760px) {
+  .body {
+    width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .body {
+    width: 400px;
+  }
+}
+
+
+
+
